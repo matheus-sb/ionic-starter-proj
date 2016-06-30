@@ -35,7 +35,7 @@ angular.module('starter', [
   $stateProvider
 
   // setup an abstract state for the tabs directive
-  .state('app.home', {
+  .state('app.homeindex', {
     url: '/',
     views: {
         'pageContent': {
