@@ -34,12 +34,11 @@ angular.module('starter', [
   // Each state's controller can be found in controllers.js
   $stateProvider
 
-  // setup an abstract state for the tabs directive
-  .state('app.homeindex', {
-    url: '/',
+  .state('home', {
+    url: '/home',
     views: {
         'pageContent': {
-            templateUrl: './app/home/index.html'
+            templateUrl: './app/home/index.html',
             controller: 'HomeIndexCtrl'
         }
     }
