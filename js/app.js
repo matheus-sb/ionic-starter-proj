@@ -39,13 +39,13 @@ angular.module('starter', [
     views: {
         'pageContent': {
             templateUrl: './app/home/index.html',
-            controller: 'HomeIndexCtrl'
+            controller: 'HomeIndexCtrsl'
         }
     }
   })// Yeoman hook. States section. Do not remove this comment.
   ;
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/home');
 
 });
